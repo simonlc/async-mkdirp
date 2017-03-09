@@ -1,0 +1,17 @@
+{
+  "name": "mkdirp",
+  "version": "1.0.0",
+  "description": "Recursively create directories, like `mkdir -p`, and return a promise.",
+  "author": "Simon Laroche <hi@simon.lc> (http://simon.lc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mkdir",
+    "async",
+    "directory"
+  ],
+  "repository": "simonlc/async-mkdirp",
+  "license": "ISC"
+}
