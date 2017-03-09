@@ -1,5 +1,5 @@
 {
-  "name": "mkdirp",
+  "name": "async-mkdirp",
   "version": "1.0.0",
   "description": "Recursively create directories, like `mkdir -p`, and return a promise.",
   "author": "Simon Laroche <hi@simon.lc> (http://simon.lc)",
@@ -13,5 +13,5 @@
     "directory"
   ],
   "repository": "simonlc/async-mkdirp",
-  "license": "ISC"
+  "license": "MIT"
 }
