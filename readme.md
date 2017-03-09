@@ -1,5 +1,7 @@
 # async-mkdirp
 
+[![NPM][npm]][npm-url]
+
 Recursively create directories, like `mkdir -p`, and return a promise.
 
 # install
@@ -59,3 +61,6 @@ This project is inspired by [`substack/mkdirp`](https://github.com/substack/node
 # license
 
 MIT
+
+[npm]: https://img.shields.io/npm/v/async-mkdirp.svg
+[npm-url]: https://npmjs.com/package/async-mkdirp
