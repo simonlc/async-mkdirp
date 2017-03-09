@@ -4,7 +4,7 @@
 
 Recursively create directories, like `mkdir -p`, and return a promise.
 
-# install
+# Install
 
 ```
 npm install -S async-mkdirp
@@ -58,7 +58,7 @@ This project is inspired by [`substack/mkdirp`](https://github.com/substack/node
 - [mkdirp-promise](https://github.com/ahmadnassri/mkdirp-promise) - node-mkdirp wrapped in a promise
 - [mkdirp-then](https://github.com/fs-utils/mkdirp-then) - node-mkdirp wrapped in a promise, and any-promise for promise implementation
 
-# license
+# License
 
 MIT
 
