@@ -1,12 +1,7 @@
 const fs = require('fs');
-const path = require('path');
+const { dirname } = require('path');
+const { promisify } = require('util');
 
-const promisify = (fn) => (...args) => new Promise((resolve, reject) => {
-  fn.apply(this, [
-    ...args,
-    (err, value) => err ? reject(err) : resolve(value),
-  ]);
-});
 const mkdir = promisify(fs.mkdir);
 const stat = promisify(fs.stat);
 
@@ -17,7 +12,7 @@ async function mkdirp(p, mode = 0o777) {
     switch (error.code) {
       case 'ENOENT':
         // Recursively move down tree until we find a dir that exists.
-        await mkdirp(path.dirname(p), mode);
+        await mkdirp(dirname(p), mode);
         // Bubble back up and create every dir.
         await mkdirp(p, mode);
         break;
