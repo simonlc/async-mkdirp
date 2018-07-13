@@ -1,6 +1,7 @@
 # async-mkdirp
 
 [![NPM][npm]][npm-url]
+[![npm bundle size (minified + gzip)][minzip]][minzip-url]
 
 Recursively create directories, like `mkdir -p`, and return a promise.
 
@@ -64,3 +65,6 @@ MIT
 
 [npm]: https://img.shields.io/npm/v/async-mkdirp.svg
 [npm-url]: https://npmjs.com/package/async-mkdirp
+
+[minzip]: https://img.shields.io/bundlephobia/minzip/async-mkdirp.svg
+[minzip-url]: https://bundlephobia.com/result?p=async-mkdirp
