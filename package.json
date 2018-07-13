@@ -1,6 +1,6 @@
 {
   "name": "async-mkdirp",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Recursively create directories, like `mkdir -p`, and return a promise.",
   "author": "Simon Laroche <hi@simon.lc> (http://simon.lc)",
   "main": "index.js",
