@@ -4,7 +4,7 @@ This project has been deprecated in favor of node's built in `fsPromises.mkdir` 
 
 How to use node's built in method instead of this package:
 
-```
+```js
 const path = '/my/path/to/anything';
 await fsPromises.mkdir(path, { recursive: true });
 
