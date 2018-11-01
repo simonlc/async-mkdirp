@@ -1,3 +1,28 @@
+# DEPRECATED
+
+This project has been deprecated in favor of node's built in `fsPromises.mkdir` added in node v10.0.0
+
+How to use node's built in method instead of this package:
+
+```
+const path = '/my/path/to/anything';
+await fsPromises.mkdir(path, { recursive: true });
+
+// With mode
+const path = '/my/path/to/anything';
+await fsPromises.mkdir(path, { recursive: true, mode: 0o775 });
+
+// With partial application proposal
+const path = '/my/path/to/anything';
+const mkdirp = fsPromises.mkdir(?, { recursive: true, mode: 0o775 });
+await mkdirp(path);
+
+// Partial application with arrow functions
+const path = '/my/path/to/anything';
+const mkdirp = path => fsPromises.mkdir(path, { recursive: true, mode: 0o775 }));
+await mkdirp(path);
+```
+
 # async-mkdirp
 
 [![npm][npm]][npm-url]
