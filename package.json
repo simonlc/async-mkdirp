@@ -4,6 +4,7 @@
   "description": "Recursively create directories, like `mkdir -p`, and return a promise.",
   "author": "Simon Laroche <hi@simon.lc> (http://simon.lc)",
   "main": "index.js",
+  "typings": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
